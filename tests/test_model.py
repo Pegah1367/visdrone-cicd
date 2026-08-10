@@ -33,4 +33,3 @@ def test_model_inference():
 
     assert saved
     assert Path(OUTPUT_PATH).exists()
-

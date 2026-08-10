@@ -1,4 +1,5 @@
 # visdrone-cicd
+The primary goal of this project is to practice CI/CD workflows and deployment/integration on an edge computer, rather than to optimize object detection accuracy.
 # VisDrone CI/CD
 
 YOLO object detection project with automated testing using GitHub Actions.

@@ -38,3 +38,9 @@ jobs:
         with:
           name: yolo-test-prediction
           path: artifacts/test_prediction.jpg
+      - name: Build Docker image
+        run: docker build -t visdrone-cicd .
+
+      - name: Test Docker container
+        run: docker run --rm visdrone-cicd
+        

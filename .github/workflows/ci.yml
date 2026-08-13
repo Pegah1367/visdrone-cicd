@@ -38,9 +38,21 @@ jobs:
         with:
           name: yolo-test-prediction
           path: artifacts/test_prediction.jpg
+
       - name: Build Docker image
         run: docker build -t visdrone-cicd .
 
       - name: Test Docker container
         run: docker run --rm visdrone-cicd
-        
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Push Docker image to Docker Hub
+        run: |
+          docker tag visdrone-cicd:latest pegah1367/visdrone-cicd:latest
+          docker push pegah1367/visdrone-cicd:latest
+          

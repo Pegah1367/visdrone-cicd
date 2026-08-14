@@ -117,3 +117,9 @@ https://hub.docker.com/r/pegah1367/visdrone-cicd
 - [x] Model tested inside Docker
 - [x] Docker image published automatically to Docker Hub
 - [x] Webcam inference on the laptop edge device
+
+## Edge Inference Demo
+
+The following video demonstrates real-time YOLO inference using the laptop webcam as a simple edge device.
+
+[Watch the edge inference demo](docs/edge_inference_demo.mp4)

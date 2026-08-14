@@ -116,4 +116,4 @@ https://hub.docker.com/r/pegah1367/visdrone-cicd
 - [x] Docker image built
 - [x] Model tested inside Docker
 - [x] Docker image published automatically to Docker Hub
-- [ ] Webcam inference on the laptop edge device
+- [x] Webcam inference on the laptop edge device

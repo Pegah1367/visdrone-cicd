@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/2e33b619-e560-432b-bbd9-3dd3ffa489b3
+
 # VisDrone CI/CD
 
 The primary goal of this project is to practise CI/CD workflows and deployment/integration on an edge computer, rather than to optimize object detection accuracy.
